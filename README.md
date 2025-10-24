@@ -1,4 +1,4 @@
-**Constraint-Aware Self-Improving Large Language Model for
+# **Constraint-Aware Self-Improving Large Language Model for
 Clinical Role Model Generation** 
 
 Authors' names blinded for peer review

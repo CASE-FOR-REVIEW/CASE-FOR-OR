@@ -1,3 +1,14 @@
+**Constraint-Aware Self-Improving Large Language Model for
+Clinical Role Model Generation** 
+
+Authors' names blinded for peer review
+
+This repository contains the implementation of the Constraint-Aware Self-Improving Algorithm, including both the warm-start and the self-improving phases. We also implement and compare with active learning benchmark including REL, UnREL, UNIF, CT-INV, and EtC-IMP.  
+
+<img width="2750" height="898" alt="case_framework_two_algs2" src="https://github.com/user-attachments/assets/d44e5149-f17c-41ab-82f9-3e37a6b23603" />
+
+
+
 #### Data Preprocessing
 1. `run_accord_preprocess.ipynb` creates local CRM database
 2. `run_generate_risk_models.ipynb` trains risk scoring tools
@@ -10,3 +21,4 @@
 - `utils.py` stores functions to process LLM texts and to create prompts from patient features
 - `crms_utils.py` and `crmg_utlils.py` stores helper functions for warm-up and active self-improving
 - `collect_perc_low_risks.py` loads checkpointed LLMs to create other metrics
+- `ai_ml_feasibility_check.py` checks if a CRM is valid for the risk reduction chance constraints
